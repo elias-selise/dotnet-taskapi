@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "0f8fad5bd9cb469fa16570867728950e",
+    "Title": "Design task dashboard",
+    "Description": "Create the initial layout for the task management dashboard.",
+    "Priority": "High",
+    "Status": "InProgress",
+    "Assignee": "Ayesha Rahman",
+    "DueDate": "2026-07-05T09:00:00Z",
+    "CreatedAt": "2026-06-20T08:30:00Z",
+    "UpdatedAt": "2026-06-25T10:15:00Z",
+    "Version": 1
+  },
+  {
+    "Id": "7c9e6679f7424de944b5e7d5a2f1c3b8",
+    "Title": "Implement task filtering",
+    "Description": "Add API support for filtering tasks by status, priority, assignee, and search term.",
+    "Priority": "High",
+    "Status": "Pending",
+    "Assignee": "Tanvir Ahmed",
+    "DueDate": "2026-07-08T12:00:00Z",
+    "CreatedAt": "2026-06-21T09:45:00Z",
+    "UpdatedAt": "2026-06-21T09:45:00Z",
+    "Version": 0
+  },
+  {
+    "Id": "3d594650f3f14a24837f575d9f031e8b",
+    "Title": "Write repository tests",
+    "Description": "Add unit tests for create, update, delete, and lookup behavior in the file-backed repository.",
+    "Priority": "Medium",
+    "Status": "Pending",
+    "Assignee": "Nusrat Jahan",
+    "DueDate": "2026-07-10T15:30:00Z",
+    "CreatedAt": "2026-06-22T11:00:00Z",
+    "UpdatedAt": "2026-06-22T11:00:00Z",
+    "Version": 0
+  },
+  {
+    "Id": "91b49b56c8654e599c46b332b5418a1e",
+    "Title": "Add validation messages",
+    "Description": "Improve create and update responses with clear validation errors for invalid task payloads.",
+    "Priority": "Medium",
+    "Status": "InProgress",
+    "Assignee": "Rafiq Islam",
+    "DueDate": "2026-07-03T14:00:00Z",
+    "CreatedAt": "2026-06-18T07:20:00Z",
+    "UpdatedAt": "2026-06-27T13:05:00Z",
+    "Version": 2
+  },
+  {
+    "Id": "2f1c3d4e5a6b47c8910d11e12f13a14b",
+    "Title": "Document API endpoints",
+    "Description": "Prepare request and response examples for all task API endpoints.",
+    "Priority": "Low",
+    "Status": "Completed",
+    "Assignee": "Farhana Karim",
+    "DueDate": "2026-06-28T18:00:00Z",
+    "CreatedAt": "2026-06-15T10:00:00Z",
+    "UpdatedAt": "2026-06-28T16:40:00Z",
+    "Version": 3
+  },
+  {
+    "Id": "a1b2c3d4e5f64789aabbccddeeff0011",
+    "Title": "Review concurrency handling",
+    "Description": "Verify file locking behavior and expected version handling for concurrent task updates.",
+    "Priority": "High",
+    "Status": "Pending",
+    "Assignee": "Sadia Akter",
+    "DueDate": "2026-07-12T11:00:00Z",
+    "CreatedAt": "2026-06-23T08:10:00Z",
+    "UpdatedAt": "2026-06-23T08:10:00Z",
+    "Version": 0
+  },
+  {
+    "Id": "b2c3d4e5f6a74890bbccddee00112233",
+    "Title": "Create task summary endpoint",
+    "Description": "Return total, pending, in-progress, completed, high-priority, and overdue task counts.",
+    "Priority": "Medium",
+    "Status": "Completed",
+    "Assignee": "Imran Hossain",
+    "DueDate": "2026-06-29T10:30:00Z",
+    "CreatedAt": "2026-06-17T12:25:00Z",
+    "UpdatedAt": "2026-06-29T09:55:00Z",
+    "Version": 1
+  },
+  {
+    "Id": "c3d4e5f6a7b84901ccddeeff11223344",
+    "Title": "Improve CORS configuration",
+    "Description": "Update CORS settings so the frontend can call the task API during local development.",
+    "Priority": "Low",
+    "Status": "Pending",
+    "Assignee": "Maliha Chowdhury",
+    "DueDate": "2026-07-15T17:00:00Z",
+    "CreatedAt": "2026-06-24T14:45:00Z",
+    "UpdatedAt": "2026-06-24T14:45:00Z",
+    "Version": 0
+  },
+  {
+    "Id": "d4e5f6a7b8c94a12ddeeff0011223344",
+    "Title": "Add assignee task view",
+    "Description": "Build an endpoint workflow for returning tasks assigned to a specific user.",
+    "Priority": "Medium",
+    "Status": "InProgress",
+    "Assignee": "Ayesha Rahman",
+    "DueDate": "2026-07-06T13:00:00Z",
+    "CreatedAt": "2026-06-19T09:10:00Z",
+    "UpdatedAt": "2026-06-26T12:30:00Z",
+    "Version": 2
+  },
+  {
+    "Id": "e5f6a7b8c9d04b23eeff001122334455",
+    "Title": "Prepare release checklist",
+    "Description": "List deployment steps, smoke tests, and rollback notes for the task API release.",
+    "Priority": "Low",
+    "Status": "Pending",
+    "Assignee": "Tanvir Ahmed",
+    "DueDate": "2026-07-18T09:30:00Z",
+    "CreatedAt": "2026-06-25T16:00:00Z",
+    "UpdatedAt": "2026-06-25T16:00:00Z",
+    "Version": 0
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tTjjGiu0F99aeD6S8+xrz7pcxZWLOdnDHKRPXg3PCUs=",
+  "Source": "dotnet-taskapi",
+  "BasePath": "_content/dotnet-taskapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
