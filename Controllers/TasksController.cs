@@ -17,9 +17,9 @@ namespace dotnet_taskapi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<TaskItem>>> GetAll()
+        public async Task<ActionResult<List<TaskItem>>> GetAll(TaskStatus? status = null, TaskPriority? priority = null)
         {
-            var tasks = await _repository.GetAllAsync();
+            var tasks = await _repository.GetAllAsync(status, priority);
             return Ok(tasks);
         }
 

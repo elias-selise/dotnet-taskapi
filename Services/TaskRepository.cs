@@ -7,7 +7,7 @@ namespace dotnet_taskapi.Services
 {
     public interface ITaskRepository
     {
-        Task<List<TaskItem>> GetAllAsync();
+        Task<List<TaskItem>> GetAllAsync(TaskStatus? status = null, TaskPriority? priority = null);
         Task<TaskItem?> GetByIdAsync(string id);
         Task<TaskItem> CreateAsync(CreateTaskDto dto);
         Task<TaskItem?> UpdateAsync(string id, UpdateTaskDto dto);
@@ -34,9 +34,17 @@ namespace dotnet_taskapi.Services
             _filePath = Path.Combine(dataDirectory, "tasks.json");
         }
 
-        public async Task<List<TaskItem>> GetAllAsync()
+        public async Task<List<TaskItem>> GetAllAsync(TaskStatus? status = null, TaskPriority? priority = null)
         {
-            return await ReadTasksAsync();
+            var tasks = await ReadTasksAsync();
+            if (status.HasValue || priority.HasValue)
+            {
+                tasks = tasks.Where(t =>
+                    (status.HasValue && t.Status == status.Value) ||
+                    (priority.HasValue && t.Priority == priority.Value)).ToList();
+            }
+
+            return tasks;
         }
 
         public async Task<TaskItem?> GetByIdAsync(string id)
